@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+}
+main {
+    display: flex;
+    height: 100vh;
+    padding: 40px 0;
+    form {
+        width: 240px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div {
+            padding: 5px 0;
+            #messageblock{
+                display: node;
+            }
+        }
+    }
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
